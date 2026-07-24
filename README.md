@@ -11,8 +11,11 @@ This plugin renders HTML content in an isolated iframe. It supports various libr
 ## Installation
 
 ```bash
-yarn add @gui-chat-plugin/html
+yarn add @gui-chat-plugin/html gui-chat-protocol
 ```
+
+> `gui-chat-protocol` is a peer dependency — install it alongside the plugin; the host application provides the runtime and this plugin only declares the compatible range.
+
 
 ## Usage
 
