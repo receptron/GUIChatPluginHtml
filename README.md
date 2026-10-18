@@ -1,6 +1,7 @@
 # @gui-chat-plugin/html
 
 [![npm version](https://badge.fury.io/js/%40gui-chat-plugin%2Fhtml.svg)](https://www.npmjs.com/package/@gui-chat-plugin/html)
+[![scoria](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/receptron/GUIChatPluginHtml/badges/scoria.json)](https://github.com/receptron/GUIChatPluginHtml/actions/workflows/scoria.yml)
 
 A render HTML plugin for [MulmoChat](https://github.com/receptron/MulmoChat).
 
