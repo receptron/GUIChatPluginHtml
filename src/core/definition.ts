@@ -20,16 +20,13 @@ export const TOOL_DEFINITION = {
       },
       html: {
         type: "string",
-        description:
-          "The complete HTML content to render. Should be a full HTML document including DOCTYPE, html, head, and body tags.",
+        description: "The complete HTML content to render. Should be a full HTML document including DOCTYPE, html, head, and body tags.",
       },
       type: {
         type: "string",
         enum: [...HTML_LIBRARIES],
         description: (() => {
-          const validValues = HTML_LIBRARIES.map(
-            (lib) => `'${lib}' for ${LIBRARY_DESCRIPTIONS[lib]}`,
-          ).join(", ");
+          const validValues = HTML_LIBRARIES.map((lib) => `'${lib}' for ${LIBRARY_DESCRIPTIONS[lib]}`).join(", ");
           return `The primary library used in this HTML page. Valid values: ${validValues}.`;
         })(),
       },

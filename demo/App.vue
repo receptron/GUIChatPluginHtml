@@ -1,21 +1,11 @@
 <template>
   <div class="min-h-screen bg-gray-100 dark:bg-gray-900 p-8">
-    <h1 class="text-2xl font-bold text-gray-900 dark:text-white mb-8">
-      Html Plugin Demo
-    </h1>
+    <h1 class="text-2xl font-bold text-gray-900 dark:text-white mb-8">Html Plugin Demo</h1>
 
     <div class="space-y-4">
-      <button
-        @click="renderHtml"
-        class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
-      >
-        Render Sample HTML
-      </button>
+      <button @click="renderHtml" class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Render Sample HTML</button>
 
-      <div
-        v-if="result"
-        class="max-w-4xl bg-white dark:bg-gray-800 rounded-lg shadow overflow-hidden"
-      >
+      <div v-if="result" class="max-w-4xl bg-white dark:bg-gray-800 rounded-lg shadow overflow-hidden">
         <div class="p-4">
           <Preview :result="result" />
         </div>
